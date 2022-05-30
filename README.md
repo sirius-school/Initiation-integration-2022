@@ -1,12 +1,8 @@
-# Initiation aux métiers numériques
+# Initiation au Développement Web 2022
 
-Découvrons ensemble trois métiers du numérique: intégrateur web, maquettiste et infographiste. Trois jobs très différents. L'un mets en page ce que l'autre réalise sur base des plans du premier.
+:no_entry: *WIP - écriture du résumé en cours*
 
-**Le maquettiste** c'est celui ou celle qui va réaliser "les plans" de notre application ou site web. Il/elle choisit où seront placés les différents éléments, comment l'utilisateur va interagir avec et quelles couleurs ils verront. C'est un peu l'architecte si une page web était une maison.
-
-**L'infographiste** va réaliser tous les éléments graphiques nécessaire à la réalisation de la maquette. Que ce soit des logos, pictos, illustrations, il réalise tout ça numériquement pour fournir aux autres jobs ce dont ils ont besoin pour illustrer l'application ou la page web. C'est un peu fournisseur de matériaux.
-
-**L'intégrateur** c'est celui qui récupère la maquette d'un site web et qui va réaliser le placement de tous les éléments que l'infographiste lui a fournit. Il part d'une page blanche, place le texte, les images, configure les différents blocs du site et leurs couleurs. Bref, c'est un peu le bâtisseur si une page était une maison.
+Bienvenue chez Sirius dans le cours d'Initiation au Développement Web. Lors de ce cours tu vas apprendre les bases pour créer tes propres pages web en les codant toi-même. 
 
 ## Au programme
 
@@ -14,8 +10,9 @@ Ce cours se découpe en :four: séquences.
 
 1. [HTML / CSS - niveau débutant](1-html-css-debutant/README.md) (:clock12: 15 jours)
 2. [HTML / CSS - niveau avancé :fire:](2-html-css-avance/README.md) (:clock12: 10 jours)
-3. [Introduction aux outils numérique](3-intro-outils-num/README.md) (:clock12: 10 jours)
-4. [JavaScript - niveau débutant](4-javascript-debutant/README.md) (:clock12: 5 jours)
+3. [Pratiques utiles au Web Design](3-intro-outils-num/README.md) (:clock12: 5 jours)
+4. [WIP - Projet global]() (:clock12: 5 jours)
+5. [JavaScript - niveau débutant](5-javascript-debutant/README.md) (:clock12: 5 jours)
 
 ## Déroulement de l'initiation
 
@@ -25,7 +22,7 @@ Nous commencerons par aborder le développement web avec l'HTML et le CSS. Nous 
 
 Nous approfondiront tes connaissances en HTML et CSS lors d'un module plus avancé. Nous verrons des concepts plus poussés comme l'utilisation de bibliothèque CSS, une méthodologie de nommage, du référencement, le responsive design mais aussi des animations et CSS Grid.
 
-Ensuite nous passeront sur une approche de certains des outils utilisés en tant qu'infographiste. Évidement il en existe énormément, mais ici ce n'est qu'un premier contact pour t'aider à t'orienter dans ton parcours professionnel. Donc nous verrons principalement Photoshop et Illustrator ainsi que Figma / Adobe XD.
+:no_entry: *WIP - ajouter résumé des bonnes pratiques web design*
 
 Nous finirons avec une introduction à la programmation algorithmique avec JavaScript. Oui ça fait peur comme ça, mais c'est amusant, tu verras. On verra aussi l'utilisation du terminal et de Git/GitHub
 
@@ -41,25 +38,23 @@ Voici quelques points de règles à respecter pour que ta formation se passe le 
 
 Tu devras être présent **du lundi au vendredi** de **9h à 16h**.
 
-Toute absence devra être **justifiée**. Si tu es absent, envoie un email à ton formateur pour le prévenir: scalajeremy@possibles.org ou à la coordinatrice: laura.laruelle@possibles.org
+Toute absence devra être **justifiée**. Si tu es absent, envoie un email à ton formateur pour le prévenir: scalajeremy@possibles.org ou le/la coordinateur/trice: :no_entry: *WIP - ajouter email coordinateur/trice*
 
 ### Les pauses
 
 Il y a une pause à **10h30** et **14h30**, de **15 minutes** chacune.
 
-Le temps de midi commence à **12h et dure une heure**. Il n'y a pas d'accès à la cuisine! Prenez vos couverts et vos plats. Un micro-onde est à votre disposition. Du café et des spéculoos seront disponibles au matin dès que possible.
+Le temps de midi commence à **12h et dure une heure**.
 
-### Les mercredis
-
-Tous les mercredis, il est possible que nous, formateurs, ne soyons pas disponible. Cela ne t'empêchera pas d'avancer sur ton apprentissage. Fais les exercices prévus, relis les cours, prépare tes questions, demande de l'aide aux autres ou propose la tienne, prépare ta veille,... Bref, tu as de quoi faire! Reste actif de ta formation.
+:no_entry: *WIP - ajouter les règles des commodités*
 
 ### Soit poli et courtois, sinon le ban sera pour toi
 
-Respecte tes condisciples et tous les membres de Sirius.
+- Respecte tes condisciples et tous les membres de Sirius.
 
-Si tu as un problème, quel qu'il soit, n'hésite pas à venir en parler à un membre de Sirius.
+- Si tu as un problème, quel qu'il soit, n'hésite pas à venir en parler à un membre de Sirius.
 
-**Mets ton téléphone en silencieux!**
+- **Mets ton téléphone en silencieux!**
 
 ## Veilles technologiques
 
@@ -69,33 +64,41 @@ Dans le but d'être toujours actif dans ton apprentissage, il est plus que conse
 
 Va lire des articles de code, même si tu comprends pas la moitié c'est toujours utile car ça éveille ta curiosité et de toute façon tu retiendras forcément quelque chose qui pourrait s'avérer utile un jour.
 
-N'hésite pas à jeter un oeil sur des collections d'images pour t'inspirer. Il y a pleins de sites qui référencent les créations de milliers de créateur. Même si ce n'est pas encore de ton niveau, ça vaut toujours la peine de regarder, de s'inspirer. Ce n'est pas parce que tu ne sais pas peindre comme Picaso que tu ne peux pas être inspiré par ses créations.
+N'hésite pas à jeter un oeil sur des collections d'images pour t'inspirer. Il y a pleins de sites qui référencent les créations de milliers d'artistes. Même si ce n'est pas encore de ton niveau, ça vaut toujours la peine de regarder, de s'inspirer. Ce n'est pas parce que tu ne sais pas peindre comme Picaso que tu ne peux pas être inspiré par ses créations.
 
 ### Quelques liens utiles pour ta veille techno
 
-- [DeviantArt](http://www.deviantart.com) : Des milliers de créations graphique en tout genre
-- [Codepen](https://codepen.io/trending) : Des milliers de réalisations de code.
-- [Medium](https://medium.com/) : Des tas d'articles concernant le monde du développement mais pas que.
-- [Dev](https://dev.to/) : Des tas d'articles concernant le monde du développement mais pas que.
+Graphisme:
+
+- [DeviantArt](http://www.deviantart.com) : est l'endroit où l'art et la communauté prospèrent. Explorez plus de 350 millions d'œuvres d'art tout en se connectant à d'autres artistes et amateurs d'art.
+- [Behance](https://www.behance.net/) : is the world's largest creative network for showcasing and discovering creative work.
+
+Programmation:
+
+- [Codepen](https://codepen.io/trending) : Codepen est un environnement de développement social pour les concepteurs et les développeurs front-end.
+- [Medium](https://medium.com/) : Medium est une plate-forme ouverte où les lecteurs trouvent une pensée dynamique et où des voix expertes et non découvertes peuvent partager leur écriture sur n'importe quel sujet.
+- [Dev](https://dev.to/) : est un endroit où les codeurs partagent, restent à jour et développent leur carrière.
+
+Extensions navigateur:
+
 - [Panda](https://usepanda.com/) : Une extension chrome pour garder un oeil sur des articles intéressants de plusieurs sites.
 - [30 Seconds Knowledge](https://30secondsofknowledge.com/) : Une extension chrome qui ouvre une page avec une info que tu peux lire en 30 secondes sur un sujet lié au code.
 
-### Vos obligations
+### Présentation d'une veille
 
 Il va falloir présenter des sujets de veilles à tout le monde. Ce petit exercice à pour but de t'apprendre à réaliser une bonne veille, une bonne présentation et à prendre la parole devant tes camarades. Cela fait partie des **soft-skills** que tu vas développer tout au long de la formation.
 
-**Tu devras réaliser 2 veilles sur les 8 semaines de formation. Elles auront lieu après la pause de midi, à 13h.**
+Pour les deux premières, c'est moi qui vais vous les donner pour que vous compreniez ce qu'il faut faire, mais par après, ça sera à toi de t'y coller.
 
-Pour les premières, c'est moi qui vais vous les donner pour que compreniez ce qu'il faut faire, mais par après, ça sera à vous de vous y coller.
+:no_entry: *WIP - décider et ajouter la fréquence*
 
-## Discord
+## Communication
 
-![discord](discord.png)
+:no_entry: *WIP - voir si accès ms-teams ou pas*
 
-Cette année on va utiliser Discord pour communiquer. C'est gratuit et simple.
+## Boîte à idées
 
-- [Clique ici pour t'inscrire](https://discord.com/register)
-- [Clique ici pour rejoindre le serveur de l'école](https://discord.gg/mYSTgBV6Zr)
+:no_entry: *WIP - ajouter le lien vers le gdoc*
 
 ## Activité brise glace
 
@@ -105,14 +108,14 @@ Et maintenant place au fun!
 
 ### Présentation
 
-Commençons par une petite présentation. Tu  vas devoir réaliser celle-ci avec [Google Slides](https://www.google.com/slides/about/) puis venir te présenter devant toute la classe à l'aide de tes slides. 
+Commençons par une petite présentation. Tu  vas devoir réaliser celle-ci avec [Google Slides](https://www.google.com/slides/about/) puis venir te présenter devant toute la classe à l'aide de tes slides.
 
-- Parle de toi. Dit nous qui tu es, ce que tu aimes et n'aime pas faire dans la vie, parles nous de tes passions, ce que tu veux faire plus tard. Bref, on veut TOUT savoir!
+- Parle de toi. Dit nous qui tu es, ce que tu aimes et n'aime pas faire dans la vie, parles nous de tes passions, ce que tu veux faire plus tard. Bref, on veut TOUT savoir sur toi!
 - Ajoute quelques photos de toi si tu en as ou va chercher des illustrations ou gif rigolo (tu peux trouver cela sur [Unsplash](http://unsplash.com) ou sur [Giphy](http://giphy.com))
 
 ### Charte de classe
 
-Prenons quelques minutes pour écrire sur des auto-collants quelques mots-clés par rapport à ce que tu considères comme important au bon déroulement des cours en classe. Par exemple, tu peux dire que tu as besoin de calme ou bien de pouvoir écouter de la musique.
+Prenons quelques minutes pour écrire sur une feuilles quelques mots-clés par rapport à ce que tu considères comme important au bon déroulement des cours en classe. Par exemple, tu peux dire que tu as besoin de calme ou bien de pouvoir écouter de la musique ou encore de café.
 
 ### Petit jeu
 
