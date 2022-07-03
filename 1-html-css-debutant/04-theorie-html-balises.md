@@ -86,7 +86,7 @@ On veut que votre page soit accessible au plus de personne possible, y compris l
 
 Pour identifier nos différentes balises et les différentier, on peut leurs attribuer des `classes`et des `id`. 
 
-- **classe**: peut être multiplié sur la page.
+- **classe**: peut être multiple sur la page.
 - **id**: doit être unique sur la page.
 
 ## La balise `<div>`

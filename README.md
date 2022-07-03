@@ -1,32 +1,38 @@
-# Initiation au Développement Web 2022
+# Initiation à l'Intégration
 
-:no_entry: *WIP - écriture du résumé en cours*
+## Présentation
 
-Bienvenue chez Sirius dans le cours d'Initiation au Développement Web. Lors de ce cours tu vas apprendre les bases pour créer tes propres pages web en les codant toi-même. 
+> Cours rédigé pour l'année 2022
+>
+> Auteur: Jeremy Scala
+
+Bienvenue chez Sirius dans le cours d'Initiation à l'Intégration. Lors de ce cours tu vas apprendre les bases pour créer tes propres pages web en les codant toi-même et en partant d'une page blanche.
 
 ## Au programme
 
-Ce cours se découpe en :four: séquences.
+Ce cours se découpe en :five: séquences sur une période de :four::zero: jours.
 
 1. [HTML / CSS - niveau débutant](1-html-css-debutant/README.md) (:clock12: 15 jours)
 2. [HTML / CSS - niveau avancé :fire:](2-html-css-avance/README.md) (:clock12: 10 jours)
-3. [Pratiques utiles au Web Design](3-intro-outils-num/README.md) (:clock12: 5 jours)
-4. [WIP - Projet global]() (:clock12: 5 jours)
+3. Pratiques utiles au Web Design (:clock12: 5 jours)
+4. Projet global (:clock12: 5 jours)
 5. [JavaScript - niveau débutant](5-javascript-debutant/README.md) (:clock12: 5 jours)
 
 ## Déroulement de l'initiation
 
 ![presentation](presentation.png)
 
-Nous commencerons par aborder le développement web avec l'HTML et le CSS. Nous verrons comment d'une page blanche on peut donner vie à une page web qui en jette.
+Nous commencerons par quelques bases à connaître en web. Puis nous aborderons les bases de l'HTML et du CSS. Nous verrons comment d'une page blanche on peut donner vie à une page web qui a du style.
 
 Nous approfondiront tes connaissances en HTML et CSS lors d'un module plus avancé. Nous verrons des concepts plus poussés comme l'utilisation de bibliothèque CSS, une méthodologie de nommage, du référencement, le responsive design mais aussi des animations et CSS Grid.
 
-:no_entry: *WIP - ajouter résumé des bonnes pratiques web design*
+Ensuite on passera sur un cours un peu plus graphique avec quelques bonnes pratiques à avoir en Web Design.
 
-Nous finirons avec une introduction à la programmation algorithmique avec JavaScript. Oui ça fait peur comme ça, mais c'est amusant, tu verras. On verra aussi l'utilisation du terminal et de Git/GitHub
+Il y aura également un projet global qui mettra toutes tes compétences acquises à l'épreuve ainsi que ton travail d'équipe.
 
-Ça te plait? Tant mieux. Ça te fait peur? Ne t'en fais pas tu vas vite progresser!
+Nous finirons avec une introduction à la programmation algorithmique avec JavaScript. Oui ça fait peur comme ça, mais c'est amusant, tu verras.
+
+Ça te plait? Tant mieux. Ça te fait peur? Ne t'en fais pas tu vas vite progresser et je suis là pour t'aider à y parvenir!
 
 ## Charte
 
@@ -38,7 +44,7 @@ Voici quelques points de règles à respecter pour que ta formation se passe le 
 
 Tu devras être présent **du lundi au vendredi** de **9h à 16h**.
 
-Toute absence devra être **justifiée**. Si tu es absent, envoie un email à ton formateur pour le prévenir: scalajeremy@possibles.org ou le/la coordinateur/trice: :no_entry: *WIP - ajouter email coordinateur/trice*
+Toute absence devra être **justifiée**. Si tu es absent, envoie un email à ton formateur pour le prévenir: scalajeremy@possibles.org.
 
 ### Les pauses
 
@@ -46,14 +52,10 @@ Il y a une pause à **10h30** et **14h30**, de **15 minutes** chacune.
 
 Le temps de midi commence à **12h et dure une heure**.
 
-:no_entry: *WIP - ajouter les règles des commodités*
-
 ### Soit poli et courtois, sinon le ban sera pour toi
 
 - Respecte tes condisciples et tous les membres de Sirius.
-
-- Si tu as un problème, quel qu'il soit, n'hésite pas à venir en parler à un membre de Sirius.
-
+- Si tu as un problème, quel qu'il soit, n'hésite pas à venir en parler à un membre de l'équipe Sirius.
 - **Mets ton téléphone en silencieux!**
 
 ## Veilles technologiques
@@ -92,13 +94,22 @@ Pour les deux premières, c'est moi qui vais vous les donner pour que vous compr
 
 :no_entry: *WIP - décider et ajouter la fréquence*
 
-## Communication
+## Communication :speaking_head:	
 
-:no_entry: *WIP - voir si accès ms-teams ou pas*
+### Discord
 
-## Boîte à idées
+![discord](discord.png)
 
-:no_entry: *WIP - ajouter le lien vers le gdoc*
+Cette année on va utiliser Discord pour communiquer. C'est gratuit et simple.
+
+- [Clique ici pour t'inscrire](https://discord.com/register)
+- [Clique ici pour rejoindre le serveur de l'école](https://discord.gg/SXaYQBku)
+
+### Boîte à idées
+
+Si tu as des idées ou des plaintes et que tu souhaites les formuler de manière anonymes, tu peux utiliser la boîte à idée mise en place en suivant le lien ci-dessous.
+
+[Par ici les idées :bulb:](https://forms.gle/eNeLhiuPkveV6cDh7)
 
 ## Activité brise glace
 
@@ -106,11 +117,11 @@ Pour les deux premières, c'est moi qui vais vous les donner pour que vous compr
 
 Et maintenant place au fun!
 
-### Présentation
+### Présentations en slides
 
-Commençons par une petite présentation. Tu  vas devoir réaliser celle-ci avec [Google Slides](https://www.google.com/slides/about/) puis venir te présenter devant toute la classe à l'aide de tes slides.
+Commençons par réaliser une petite présentation avec [Google Slides](https://www.google.com/slides/about/) puis viens te présenter à tes nouveaux collègues de formation.
 
-- Parle de toi. Dit nous qui tu es, ce que tu aimes et n'aime pas faire dans la vie, parles nous de tes passions, ce que tu veux faire plus tard. Bref, on veut TOUT savoir sur toi!
+- **Parle de toi**. Dit nous qui tu es, ce que tu aimes et n'aime pas faire dans la vie, parles nous de tes passions, ce que tu veux faire plus tard. Bref, on veut **TOUT** savoir sur toi!
 - Ajoute quelques photos de toi si tu en as ou va chercher des illustrations ou gif rigolo (tu peux trouver cela sur [Unsplash](http://unsplash.com) ou sur [Giphy](http://giphy.com))
 
 ### Charte de classe
