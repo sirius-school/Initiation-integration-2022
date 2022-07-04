@@ -52,6 +52,12 @@ Il y a une pause à **10h30** et **14h30**, de **15 minutes** chacune.
 
 Le temps de midi commence à **12h et dure une heure**.
 
+### Les commodités
+
+Il vous est autorisé d'accéder aux appareils mis à votre disposition dans la réfectoire (four à micro-onde, café, évier,...).
+
+Il est par contre interdit de passer les doubles portes vitrés, c'est une salle de cours à part.
+
 ### Soit poli et courtois, sinon le ban sera pour toi
 
 - Respecte tes condisciples et tous les membres de Sirius.
