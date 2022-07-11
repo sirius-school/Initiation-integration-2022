@@ -150,6 +150,10 @@ Faisons une toute petite pause théorique.
 
 :bulb: Tu ne dois pas retenir ce squelette par coeur. Tu peux utiliser Emmet pour mettre en page rapidement ta structure de base HTML. Pour ce faire, enregistre ton document en `.html`. Ensuite dedans, tu peux tout simplement écrire `!` et valider avec la touche `Enter`. VSCode comprendra que tu utilises une abréviation d'Emmet et te mettra en place ta structure. Nous verrons Emmet un peu plus loin...
 
+> :exclamation: Lors d'une mise à jour de VScode il est possible que cette dernière fonctionnalité ai changée. Il faut désormais activer `Emmet: Use Inline Completions` qui est un paramètre à  dans VSCode. Ainsi, lorsque tu écriras du code Emmet, VScode te montrera directement le résultat et il faudra valider avec `Tab`.
+
+![vscode-emmet-inline](./img/03/vscode-emmet-inline.png)
+
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
 
 [:arrow_up: Revenir au top](#table-des-matières)
