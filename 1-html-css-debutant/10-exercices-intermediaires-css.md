@@ -19,4 +19,19 @@ Pas de consigne précise, mets quelques propriétés pour changer la couleur du 
 
 Réalise [les exercices sur la W3 School](https://www.w3schools.com/css/exercise.asp) jusqu'au chapitre sur les **CSS Font**.
 
+## CSS Zen Garden (exercice optionnel)
+
+1. Télécharge le fichier HTML et CSS sur la page principale de [CSS Zen Garden](http://www.csszengarden.com/)
+2. Ouvre les fichiers et jette un coup d'oeil.
+3. Créer une nouvelle feuille de style et inspire toi de la leur pour créer ton propre style CSS pour CSS Zen Garden
+4. Laisse allez ton imagination, essaye des propriétés, fais des recherches sur le net, va voir des exemples.
+
+## CV (exercice optionnel)
+
+1. Va sur [Canva](http://www.canva.com) et inscris-toi si ce n'est pas déjà le cas.
+2. Cherche un modèle de CV qui te semble réalisable en HTML/CSS
+3. Remplis le avec tes informations
+4. Télécharge le en PDF/JPG
+5. Réalise-le en HTML/CSS. Tu auras sans doute besoin de nouvelles propriétés, alors n'hésite pas à allez faire un tour sur la documentation ou d'autres cours comme celui de [W3 School](https://www.w3schools.com/css/default.asp). Tu peux par exemple jeter un oeil à Flexbox ou même CSS Grid.
+
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
