@@ -9,8 +9,8 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 3. Affiche la page dans ton navigateur pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
 4. Regarde le screenshot plus bas et tente de reproduire le même style.
 5. Je te fournis plus bas le code HTML, les couleurs utilisées, quelques indications de taille et le code CSS avec seulement les sélecteurs.
-6. Il n'y a pas une bone méthode, si tu veux utiliser tes propres sélecteurs, tu peux!
-7. Tu as vus toute la théorie nécessaire à réaliser cet exercices.
+6. Il n'y a pas une bonne méthode, si tu veux utiliser tes propres sélecteurs, tu peux!
+7. Tu as vus toute la théorie nécessaire à la réalisation de cet exercice.
 8. Souviens-toi, utilise l'inspecteur d'élément pour tester des valeurs directement dans ton navigateur.
 9. N'hésite pas à retourner voir la théorie et la documentation en cas de besoin.
 10. Essaye d'allez le plus loin possible sans demander de l'aide.
@@ -65,16 +65,16 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 
 ## Couleurs
 
-- background page: #0f0e17
-- texte blanc: #fffffe
-- background section: #fffffe
-- titre: #ff8906
-- background footer: #e53170
+- Fond de la page: #0f0e17
+- Texte blanc: #fffffe
+- Fond des sections: #fffffe
+- Titre: #ff8906
+- Fond du bas de page: #e53170
 
 ## Tailles
 
 - le logo fait 100px de large
-- la largeur des sections est de 790px max
+- la largeur des sections est de 790px **max**
 - pour ce qui est des marges et padding, utilise les valeurs que tu veux tant que ça ressemble un minimum à ce qu'il y a sur les screenshots
 
 ## CSS
