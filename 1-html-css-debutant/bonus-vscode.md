@@ -41,6 +41,10 @@ Voici quelques exemples:
 
 En écrivant juste `!` et en validant avec `enter` tu peux directement créer ton squelette HTML de base.
 
+> :exclamation: Lors d'une mise à jour de VScode il est possible que cette dernière fonctionnalité ai changée. Il faut désormais activer `Emmet: Use Inline Completions` qui est un paramètre à  dans VSCode. Ainsi, lorsque tu écriras du code Emmet, VScode te montrera directement le résultat et il faudra valider avec `Tab`.
+
+![vscode-emmet-inline](./img/03/vscode-emmet-inline.png)
+
 ### Lorem Ipsum
 
 Le lorem ipsum est un texte fictif en latin qui est devenu la référence du texte de substitution. C'est à dire un texte que l'on utilise pour remplir nos `<div>`et `<p>`dans le but de pouvoir commencer rapidement à styliser notre page, sans devoir attendre le contenu complet.
@@ -53,7 +57,7 @@ Il est également possible de créer des listes plus rapidement, pour ce faire t
 
 Mais ça va plus loin que ça, il y a moyen de directement écrire le nombre de `li` dont tu as besoin dans ta liste: `ul>li*5`. Ceci va créer une liste avec 5 `<li>`. C'est à ça que sert `>`,c'est pour indiquer la descendance.
 
-Et on peut encore pousser le vice plus loin en demandant directement de nous créer une liste et son contenu: `ul>li{lien$}*5`. Ce qui est entre accolades ici c'est le contenu de ma balise `<li>`
+Et on peut encore pousser le vice plus loin en demandant directement de nous créer une liste et son contenu: `ul>li{lien $}*5`. Ce qui est entre accolades ici c'est le contenu de ma balise `<li>`.
 
 ### Contenu, Class et ID, multiplicateur, Attribut
 
