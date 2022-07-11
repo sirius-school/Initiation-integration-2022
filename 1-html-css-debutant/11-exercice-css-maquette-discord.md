@@ -9,7 +9,7 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 3. Affiche la page dans ton navigateur pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
 4. Regarde le screenshot plus bas et tente de reproduire le même style.
 5. Je te fournis plus bas le code HTML, les couleurs utilisées, quelques indications de taille et le code CSS avec seulement les sélecteurs.
-6. Il n'y a pas une bonne méthode, si tu veux utiliser tes propres sélecteurs, tu peux!
+6. Il n'y a pas qu'une bonne méthode, si tu veux utiliser tes propres sélecteurs, tu peux!
 7. Tu as vus toute la théorie nécessaire à la réalisation de cet exercice.
 8. Souviens-toi, utilise l'inspecteur d'élément pour tester des valeurs directement dans ton navigateur.
 9. N'hésite pas à retourner voir la théorie et la documentation en cas de besoin.
