@@ -8,7 +8,7 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 2. Crée un nouveau document `HTML` et nomme le `exercice-1.html`.
 3. Sauvegarde-le dans un dossier `Mes exercices HTML` dans le dossier `Mes Documents` de ton ordinateur.
 4. Écris le squelette de base d'une page HTML avec l'abréviation d'Emmet (!)
-5. Ajoute un `paragraphe` et écris une petite phrase pour saluer le visisteur.
+5. Ajoute un `paragraphe` et écris une petite phrase pour saluer le visiteur.
 
 ## Exercice 2
 

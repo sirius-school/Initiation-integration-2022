@@ -34,7 +34,8 @@ Il se note à la suite d'un sélecteur avec `:pseudo-class`
 ### Les liens
 
 ```css
- /* lien non-visité */
+/* css */
+/* lien non-visité */
 a:link {color: #FF0000;}
 
 /* lien visité */
@@ -59,6 +60,7 @@ Ces propriétés CSS vont permettre de modifier le comportement par défaut des 
 La pseudo-class `:focus` permet de définir le comportement d'un élément sélectionné par l'utilisateur généralement dans un formulaire.
 
 ```css
+/* css */
 input:focus {
   background-color: yellow;
 }
@@ -69,6 +71,7 @@ input:focus {
 Il est tout à fait possible de combiner les classes CSS et les pseudo-classes.
 
 ```css
+/* css */
 a.important:hover{
   color:red;
 }
@@ -79,12 +82,14 @@ a.important:hover{
 La pseudo-class `:first-child` permet de sélectionner spécifiquement le premier élément d'un groupe d'élément semblable.
 
 ```css
+/* css */
 p:first-child{
   color:red;
 }
 ```
 
 ```html
+<!-- html -->
 <p>Je serai en rouge</p>
 <p>Je n'aurai pas de couleur spécifique</p>
 <p>Je n'aurai pas de couleur spécifique</p>
@@ -92,23 +97,29 @@ p:first-child{
 <!-- omit in toc -->
 #### Sélectionner la première balise `<em>` dans toutes les `<p>`
 
-```html
-<style>
+```css
+/* css */
   p em:first-child{
     color:red;
   }
-</style>
+```
+
+```html
+<!-- html -->
 <p>Je suis une phrase, <em>moi je serai en rouge</em> et <em>moi, comme je suis le deuxième élément en italique, je ne le serai pas</em></p>
 ```
 <!-- omit in toc -->
 #### Sélectionner toutes les balises `<em>` dans le "first-child" `<p>`
 
-```html
-<style>
+```css
+/* css */
   p:first-child i{
     color: red;
   }
-</style>
+```
+
+```html
+<!-- html -->
 <p>Salut <em>je serai en rouge</em> et <em>moi aussi</em></p>
 <p>Salut <em>je serai PAS en rouge</em> et <em>moi NON PLUS</em></p>
 ```
@@ -121,12 +132,14 @@ Fonctionne comme pour `:first-child` mais au lieu de sélectionner le premier en
 
 La pseudo-class `:first-of-type` va sélectionner tous les éléments dont c'est leur première apparition.
 
-```html
-<style>
+```css
+/* css */
   article :first-of-type{
     background-color: red;
   }
-</style>
+```
+
+```html
 <article>
   <div>Je suis la première div</div>
   <div>Je suis le premier <span>span</span></div>
@@ -144,6 +157,7 @@ Fonctionne comme `:first-of-type` mais sélectionnera le dernier élément qui a
 Permet de sélectionner un élément par rapport à sa position dans un groupe d'élément semblable.
 
 ```css
+/* css */
 a:nth-child(2){
   color:orange;
 }
@@ -154,6 +168,7 @@ a:nth-child(2){
 Ce sélecteur prend un paramètre supplémentaire entre parenthèse. Il peut s'agir des mots-clés: `odd` (impair) ou `even` (pair) ou d'un chiffre. Il est également possible d'y introduire des formules.
 
 ```css
+/* css */
 a:nth-child(2n+1){
   color:orange
 }
@@ -170,6 +185,7 @@ Voilà comment est interprété la formule:
 Cela revient pareil à indiquer `odd`, mais il est possible d'utiliser des formules différentes pour d'autres sélections, par exemple:
 
 ```css
+/* css */
 a:nth-child(3n+3){
   color: green;
 }
@@ -210,6 +226,7 @@ Il se note à la suite d'un sélecteur avec `::pseudo-element`
 Permet de sélectionner le début (before) ou la fin (after) d'un élément. Cela sert notamment à ajouter un style à un élément grâce à la propriété `content`.
 
 ```css
+/* css */
 a::before{
   content:"This is a link -> "
 }
@@ -225,6 +242,7 @@ a::after{
 Permet de sélectionner la première lettre ou ligne d'un élément.
 
 ```css
+/* css */
 p::first-letter {
   font-size: 230%;
 }
@@ -238,6 +256,7 @@ p::first-line {
 Permet de styliser la sélection d'un élément par l'utilisateur.
 
 ```css
+/* css */
 ::selection {
   color: red;
   background: yellow;
@@ -255,6 +274,7 @@ Il existe encore quelques autres pseudo-element, mais rien de bien utile dans le
 Il est tout à fait possible de combiner plusieurs pseudo-sélecteur.
 
 ```css
+/* css */
   p:nth-child(even):hover::first-letter {
     color:red;
   }

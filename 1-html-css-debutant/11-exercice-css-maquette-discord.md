@@ -73,9 +73,15 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 
 ## Tailles
 
-- le logo fait 100px de large
-- la largeur des sections est de 790px **max**
-- pour ce qui est des marges et padding, utilise les valeurs que tu veux tant que ça ressemble un minimum à ce qu'il y a sur les screenshots
+- le logo fait 100px de large.
+- la largeur des sections est de 790px **max**.
+- pour ce qui est des marges et padding, utilise les valeurs que tu veux tant que ça ressemble un minimum à ce qu'il y a sur les screenshots.
+
+## Positions
+
+- Il faut centrer **tout** le texte sur la page.
+- Il faut centrer les sections grâce aux **margins**.
+- Le footer doit être positionné de manière **fixe** en bas de page.
 
 ## CSS
 
