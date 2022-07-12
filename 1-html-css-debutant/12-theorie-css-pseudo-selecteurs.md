@@ -95,7 +95,7 @@ p:first-child{
 <p>Je n'aurai pas de couleur spécifique</p>
 ```
 <!-- omit in toc -->
-#### Sélectionner la première balise `<em>` dans toutes les `<p>`
+#### Exemple: Sélectionner la première balise `<em>` dans toutes les `<p>`
 
 ```css
 /* css */
@@ -109,11 +109,11 @@ p:first-child{
 <p>Je suis une phrase, <em>moi je serai en rouge</em> et <em>moi, comme je suis le deuxième élément en italique, je ne le serai pas</em></p>
 ```
 <!-- omit in toc -->
-#### Sélectionner toutes les balises `<em>` dans le "first-child" `<p>`
+#### Exemple: Sélectionner toutes les balises `<em>` dans le "first-child" `<p>`
 
 ```css
 /* css */
-  p:first-child i{
+  p:first-child em{
     color: red;
   }
 ```
@@ -140,6 +140,7 @@ La pseudo-class `:first-of-type` va sélectionner tous les éléments dont c'est
 ```
 
 ```html
+<!-- html -->
 <article>
   <div>Je suis la première div</div>
   <div>Je suis le premier <span>span</span></div>
