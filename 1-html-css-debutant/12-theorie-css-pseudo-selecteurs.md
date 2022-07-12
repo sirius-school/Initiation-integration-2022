@@ -79,7 +79,7 @@ a.important:hover{
 
 ### First-child
 
-La pseudo-class `:first-child` permet de sélectionner spécifiquement le premier élément d'un groupe d'élément semblable.
+La pseudo-class `:first-child` permet de sélectionner spécifiquement le premier élément à l'intérieur de son parent à condition que ce soit le premier.
 
 ```css
 /* css */
@@ -94,6 +94,29 @@ p:first-child{
 <p>Je n'aurai pas de couleur spécifique</p>
 <p>Je n'aurai pas de couleur spécifique</p>
 ```
+
+> :exclamation: Si l'élément n'est pas le premier de son parent, il ne sera pas sélectionner. Voir exemple suivant.
+
+```css
+/* css */
+p:first-child{
+  color:red;
+}
+```
+
+```html
+<!-- html -->
+<body>
+  <a href="#">Coucou</a>
+  <p>Je ne suis pas le premier enfant de mon parent body, du coup je ne serai pas sélectionné</p>
+  <p>Et moi non plus</p>
+  <div>
+    <p>Par contre, moi je suis bien le premier enfant de mon parent 'div' du coup je serai bien sélectionné</p>
+    <p>Et moi toujours pas</p>
+  </div>
+</body>
+```
+
 <!-- omit in toc -->
 #### Exemple: Sélectionner la première balise `<em>` dans toutes les `<p>`
 
