@@ -90,9 +90,11 @@ p:first-child{
 
 ```html
 <!-- html -->
-<p>Je serai en rouge</p>
-<p>Je n'aurai pas de couleur spécifique</p>
-<p>Je n'aurai pas de couleur spécifique</p>
+<div>
+  <p>Je serai en rouge</p>
+  <p>Je n'aurai pas de couleur spécifique</p>
+  <p>Je n'aurai pas de couleur spécifique</p>
+</div>
 ```
 
 > :exclamation: Si l'élément n'est pas le premier de son parent, il ne sera pas sélectionner. Voir exemple suivant.
@@ -106,7 +108,7 @@ p:first-child{
 
 ```html
 <!-- html -->
-<body>
+<div>
   <a href="#">Coucou</a>
   <p>Je ne suis pas le premier enfant de mon parent body, du coup je ne serai pas sélectionné</p>
   <p>Et moi non plus</p>
@@ -114,7 +116,7 @@ p:first-child{
     <p>Par contre, moi je suis bien le premier enfant de mon parent 'div' du coup je serai bien sélectionné</p>
     <p>Et moi toujours pas</p>
   </div>
-</body>
+</div>
 ```
 
 <!-- omit in toc -->
