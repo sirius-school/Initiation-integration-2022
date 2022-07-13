@@ -42,8 +42,7 @@ Alors, on va faire au plus court, car des propriétés il y en a beaucoup... vra
 - [Position](#position)
   - [position: static](#position-static)
   - [position: fixed](#position-fixed)
-  - [position: absolute](#position-absolute)
-  - [position: relative](#position-relative)
+  - [position: absolute et relative](#position-absolute-et-relative)
 - [L'auto-complete de VSCode](#lauto-complete-de-vscode)
 
 ## Typographie
@@ -504,33 +503,49 @@ Un élément positionné avec **fixed** ne bougera pas. Il sortira du flux de la
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-### position: absolute
+### position: absolute et relative
 
-Un élément en `position:absolute` se placera par rapport à son parent direct. 
+Un élément en `position:absolute` se placera par rapport à son parent direct qui possède une `position:relative` ou alors par rapport à `<body>`.
 
-```css
-h2 {
-  position: absolute;
-  left: 100px;
-  top: 150px;
-}
+Pour placer un élément par rapport à un autre, il faut que son parent direct soit en `position:relative`.
+
+Prenons l'exemple suivant:
+
+```html
+<head>
+ <style>
+    body{display: grid;place-items: center;height: 100vh;background-color: red;margin:0;}
+    .container {
+      height: 400px;
+      width: 400px;
+      background-color: blue;
+      position: relative;
+    }
+    .bulle{
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+      background-color: chartreuse;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bulle"></div>
+  </div>
+</body>
 ```
 
-### position: relative
+Si nous ne précision pas d'élément en `position:relative` notre bulle va se placer par rapport à notre body et donc se place en bas à droite (image 1). Si on précise un élément avec la `position: relative` notre bulle se place par rapport à cet élément (image 2).
 
-Si l'on veut placer un élément par rapport à un autre, on va mettre ce dernier en `position:relative`.
+**Image 1**
+![position-relative](img/09/pos-absolute.png)
 
-```css
-.content .a {
-  position: relative;
-}
-
-.content .b {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-```
+**Image 2**
+![position-relative](img/09/pos-relative.png)
 
 Un élément se comporte de la même manière que avec static. On peut se servir des propriétés **top**, **left**, **right**, **bottom** pour déplacer l'élément. Le reste du contenu ne sera pas affecté.
 
