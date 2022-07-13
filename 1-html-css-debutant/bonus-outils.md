@@ -6,7 +6,30 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
 <!-- omit in toc -->
 ## Sommaire
 
-- [La documentation](#la-documentation)
+- [La documentation et les cheatsheet](#la-documentation-et-les-cheatsheet)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [JavaScript](#javascript)
 
-## La documentation
+## La documentation et les cheatsheet
 
+Voici les liens à retenir pour retrouver toutes les explications nécessaires à ce qu'on a vu ou ce que tu trouveras sur le net par rapport à l'HTML et le CSS
+
+### HTML
+
+- [MDN - HTML :fr:](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [W3School - HTML :us:](https://www.w3schools.com/html/default.asp)
+- [Cheatsheet HTML interactive :us:](https://htmlcheatsheet.com/)
+- [MDN - Cheatsheet - HTML :fr:](https://developer.mozilla.org/fr/docs/Learn/HTML/Cheatsheet)
+
+### CSS
+
+- [MDN - CSS :fr:](https://developer.mozilla.org/fr/docs/Learn/CSS)
+- [W3School - CSS :us:](https://www.w3schools.com/css/default.asp)
+- [Cheatsheet CSS interactive :us:](https://htmlcheatsheet.com/css/)
+
+### JavaScript
+
+- [MDN - JS :fr:](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [W3School - JS :us:](https://www.w3schools.com/js/default.asp)
+- [Cheatsheet JS interactive :us:](https://htmlcheatsheet.com/js/)

@@ -37,4 +37,4 @@ Consulte la documentation, Google, la théorie, tes collègues ou ton super form
 ## Bonus
 
 - [Les gestes qui sauvent du temps sur VSCode](bonus-vscode.md)
-- :hammer_and_wrench: La boîte à outils de l'intégrateur junior!
+- [La boîte à outils de l'intégrateur junior!](bonus-outils.md)
