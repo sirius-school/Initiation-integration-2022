@@ -76,7 +76,7 @@ Il est donc intéressant de créer une feuille de style principale `style.css` e
 @import "nav.css";
 @import "content.css";
 
-/* Aucune propriété dans ce fichier */
+/* Des propriétés liées à toutes vos pages (comme les polices d'écriture, les couleurs,...) */
 
 ```
 
