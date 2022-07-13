@@ -5,7 +5,7 @@
 <!-- omit in toc -->
 ## Table des matières
 
-- [Le sélecteur d'HTML](#le-sélecteur-dhtml)
+- [Le sélecteur de balises HTML](#le-sélecteur-de-balises-html)
 - [Enfant et descendance](#enfant-et-descendance)
   - [Parent et ancêtre](#parent-et-ancêtre)
 - [Sélecteur de hiérarchie](#sélecteur-de-hiérarchie)
@@ -13,15 +13,18 @@
 - [Sélecteur de classe](#sélecteur-de-classe)
   - [Qu'est-ce qu'une classe](#quest-ce-quune-classe)
 - [L'identifiant (id)](#lidentifiant-id)
-- [On mélange tout!](#on-mélange-tout)
+- [On mélange tout](#on-mélange-tout)
 - [Espace](#espace)
-- [Le sélecteur de tout!](#le-sélecteur-de-tout)
+- [Le sélecteur de tout](#le-sélecteur-de-tout)
+- [Combinateur de voisin direct](#combinateur-de-voisin-direct)
+- [Sélecteurs de voisins généraux](#sélecteurs-de-voisins-généraux)
+- [Sélecteurs enfant](#sélecteurs-enfant)
 - [Convention de nommage](#convention-de-nommage)
 - [Pour finir](#pour-finir)
 
-## Le sélecteur d'HTML
+## Le sélecteur de balises HTML
 
-Vous pouvez sélectionner n'importe quel élément HTML et lui appliquer un style, tous les éléments de la page seront impacté.
+Vous pouvez sélectionner n'importe quel élément/balise HTML et lui appliquer un style, tous les éléments de la page seront impacté.
 
 ```css
 p{
@@ -78,7 +81,7 @@ Si vous avez besoin, par exemple, que tous vos paragraphes soit écris en jaune 
 
 ### Qu'est-ce qu'une classe
 
-C'est un attribut que l'on donne à une balise HTML pour pouvoir la cibler plus facilement avec notre CSS.
+C'est un attribut que l'on donne à une balise HTML pour pouvoir la cibler plus facilement avec notre CSS. C'est un peu comme une étiquette qu'on colle à notre élément.
 
 On insère dans notre balise HTML un attribut **class** dont la **valeur** peut-être ce que vous voulez, soyez cohérent avec l'effet recherché.
 
@@ -122,7 +125,7 @@ button.btn.btn-default{ ... }
 
 ## L'identifiant (id)
 
-C'est la même chose qu'une classe sauf qu'il doit être unique sur la page, il sera moins utilisé. On ne peut utiliser qu'un id par balise. On le cible avec #
+C'est la même chose qu'une classe sauf qu'il doit être unique sur la page, il sera moins utilisé. On ne peut utiliser qu'un id par balise. On le cible avec `#`
 
 ```html
 <p id="monId">
@@ -132,9 +135,9 @@ C'est la même chose qu'une classe sauf qu'il doit être unique sur la page, il 
 #monId { ... }
 ```
 
-## On mélange tout!
+## On mélange tout
 
-Il est tout à fait possible de mélanger tous ces sélecteurs ensembles. Mais attention à ne pas créer du code CSS trop spécifique. 
+Il est tout à fait possible de mélanger tous ces sélecteurs ensembles. Mais attention à ne pas créer du code CSS trop spécifique.
 
 ```css
 p#monId.maClasse { ... }
@@ -162,7 +165,7 @@ p .important { ... }
 
 Voyez comme un simple espace peut faire ou défaire votre page. Soyez attentif  et utilisez l'inspecteur de votre navigateur pour cibler plus facilement le problème.
 
-## Le sélecteur de tout!
+## Le sélecteur de tout
 
 Pour sélectionner l'entièreté de notre page on peut utiliser `*`
 
@@ -170,13 +173,71 @@ Pour sélectionner l'entièreté de notre page on peut utiliser `*`
 * {...}
 ```
 
-:bulb: On peut combiner ce sélecteur avec d'autres pour sélectionner tous les éléments à l'intérieur d'un autre, par exemple: 
+:bulb: On peut combiner ce sélecteur avec d'autres pour sélectionner tous les éléments à l'intérieur d'un autre, par exemple:
 
 ```css
 p * {...}
 ```
 
 > Sélectionnera tous les éléments à l'intérieur d'un `<p>`
+
+## Combinateur de voisin direct
+
+Celui-ci est un peu plus compliqué, il permet de cibler un voisin direct d'un autre élément.
+
+```css
+/* css */
+p + .intro {...}
+```
+
+```html
+<!-- html -->
+<p>Coucou je suis un paragraphe avec <a href="#" class="intro">un lien</a>.</p>
+<a href="#" class="intro">Et moi je suis un lien tout seul</a>
+```
+
+> :bulb: Dans cet exemple le lien à l'intérieur du paragraphe ne sera pas sélectionné, car ici on ne cible pas la descendance mais le fait que le lien est "à côté" ou "à la suite" du paragraphe pas englober dans le paragraphe.
+
+## Sélecteurs de voisins généraux
+
+Le combinateur ~ permet de séparer deux sélecteurs et de cibler un élément si celui-ci correspond au second sélecteur et est précédé (mais pas forcément voisin immédiat) d'un autre élément correspondant au premier sélecteur qui partage le même parent. Les deux éléments sont des fils d'un même parent Element, voisins immédiats ou pas.
+
+```css
+/* css */
+p ~ span {color: red;}
+```
+
+```html
+<!-- html -->
+<span>Ici, ce n'est pas rouge.</span>
+<p>Voici un paragraphe.</p>
+<code>Un peu de code.</code>
+<span>Et un autre span.</span>
+<code>Encore du code</code>
+<span>Ici aussi, c'est rouge</span>
+```
+
+## Sélecteurs enfant
+
+Le combinateur > sépare deux sélecteurs et cible seulement les éléments correspondant au second sélecteur qui sont des enfants directs des éléments ciblés par le premier sélecteur.
+
+
+```css
+/* css */
+div > span {
+  background-color: blue;
+}
+```
+
+```html
+<!-- html -->
+<div>
+  <span>Premier span du div.
+    <span>Deuxième span, dans un span dans un div.</span>
+  </span>
+</div>
+<span>Troisième span, en dehors de tout div.</span>
+```
 
 ## Convention de nommage
 
@@ -186,7 +247,7 @@ p * {...}
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Pour finir 
+## Pour finir
 
 Pas si compliqué, n'est-ce pas??
 
