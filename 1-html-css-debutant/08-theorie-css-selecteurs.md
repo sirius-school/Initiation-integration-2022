@@ -1,7 +1,6 @@
 <!-- omit in toc -->
 # CSS - Les sélecteurs
 
-
 <!-- omit in toc -->
 ## Table des matières
 
