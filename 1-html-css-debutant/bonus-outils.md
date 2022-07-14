@@ -10,6 +10,8 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
   - [HTML](#html)
   - [CSS](#css)
   - [JavaScript](#javascript)
+- [Les chaines Youtube intéressantes](#les-chaines-youtube-intéressantes)
+- [Les sites outils](#les-sites-outils)
 
 ## La documentation et les cheatsheet
 
@@ -33,3 +35,13 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [MDN - JS :fr:](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 - [W3School - JS :us:](https://www.w3schools.com/js/default.asp)
 - [Cheatsheet JS interactive :us:](https://htmlcheatsheet.com/js/)
+
+## Les chaines Youtube intéressantes
+
+- [Kevin Powel :us:](https://www.youtube.com/kepowob)
+- [Design Course - Gary Simmons :us:](https://www.youtube.com/c/DesignCourse)
+- [Le Designer Du Web :fr:](https://www.youtube.com/c/LeDesignerduWeb )
+
+## Les sites outils
+
+- [CodePen](https://codepen.io/)
