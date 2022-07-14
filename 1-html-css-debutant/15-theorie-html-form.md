@@ -76,7 +76,7 @@ C'est l'élement le plus important de votre formulaire. Il permet de définir le
 |**[range](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/range)**| Affiche un contrôleur qui permet de sélectionner un nombre dont la valeur n'est pas importante. |
 |**[reset](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/reset)**| Affiche un bouton qui permet de réinitialiser l'intégralité du formulaire. |
 |**[search](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/search)**| Affiche un champ prévu pour la recherche de termes. Les sauts à la ligne sont retirés automatiquement |
-|**[submit](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/submit)**| Affiche un bouton servant à l'envoi du formulaire |
+|**[submit](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/submit)**| Affiche un bouton servant à l'envoi du formulaire (on lui préfère maintenant la balise `<button>`) |
 |**[tel](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/tel)**| Affiche un champ pour renseigner un numéro de téléphone. |
 |**[text](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/text)**| Définis un champs de texte d'une ligne. Les sauts à la ligne sont retirés automatiquement. |
 |**[time](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/time)**| Permet d'indiquer une valeur de temps. |
@@ -159,7 +159,7 @@ Les attributs sont: autocomplete, autofocus, cols, disabled, form, maxlength, mi
 
 ## L'élément `<button>`
 
-Pour envoyer votre formulaire on a déjà vu le `type="button"` de l'`input`. Mais ce dernier ne permet pas l'ajout de contenu. Il aura sa `value`mais c'est tout. Sur les navigateurs les plus anciens la balise \<button> peut poser problème (ex: IE6). Mais la majorité des utilisateurs ne devraient pas avoir de soucis.
+Pour envoyer votre formulaire on a déjà vu le `type="button"` de l'`input`. Mais la balise `<button>` est le nouveau moyen de le faire et est beaucoup plus souple au niveau des fonctionnalités qu'il offre comparé à `input`.
 
 ```html
 <button name="button">Click on me :)</button>
